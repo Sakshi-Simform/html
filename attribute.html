@@ -11,7 +11,13 @@
                 margin: 20px;
                 
             }
+            .main
+            {
+                text-align: center;
+            }
+
         </style>
+
     </head>
     <body>
        
@@ -25,9 +31,11 @@
           </div>
           <hr>
           <br>
-          <div class="city">
+          <div class="city main">
             <h2>London</h2>
-           <p>London is the capital city of England</p>
+           <p>London is the capital city of England
+            display &euro
+           </p>
           </div>
           <br>
           <div class="city">
@@ -37,7 +45,38 @@
           <br>
           <div class="city">
             <h2>Tokyo</h2>
-            <p>Tokyo is the capital of Japan</p>
+            <p>Tokyo is the capital of Japan </p>
           </div>
+
+          <hr>
+          <br>
+          <h1>Forms</h1>
+          <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" name="lname"><br><br>
+            <label for="cars">Choose car:</label><br>
+            <select id="cars" name="cars" size="2">
+                <option value="bmw">bmw</option>
+                <option value="volvo">volvo</option>
+                <option value="scorpio" selected>scorpio</option>
+                <option value="fiat">fiat</option>
+            </select>
+            <input type="submit" value="submit">
+            </form>
+
+            <hr>
+            <br>
+            <form>
+                <input list="browser">
+                <datalist id="browser">
+                    <option value="chrome">
+                    <option value="edge">
+                    <option value="opera">
+                    <option value="firefox">
+                </datalist>
+            </form>
+          
     </body>
 </html>
